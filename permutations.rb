@@ -5,3 +5,7 @@ permutations = []
   }
 }
 permutations.each {|a| puts "#{a.first} #{a.last}"}
+
+# Can also do:
+#   rolls = [1,2,3,4,5,6]
+#   print rolls.repeated_permutation(2).to_a
